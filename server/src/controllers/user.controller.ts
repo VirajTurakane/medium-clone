@@ -53,7 +53,7 @@ export const signup = async (c: Context) => {
       expiresIn: "30d",
     });
 
-    setTokenCookie(c, token);
+    setTokenCookie(c, token, user.id.toString());
 
     return c.json({
       sucess: true,

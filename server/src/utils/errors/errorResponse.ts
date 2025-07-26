@@ -1,8 +1,7 @@
 import { Context } from "hono";
-import { BlankEnv, BlankInput } from "hono/types";
 
 export const errorResponse = (
-  c: Context<BlankEnv, string, BlankInput>,
+  c: Context,
   message: string
 ) => {
   return c.json({
