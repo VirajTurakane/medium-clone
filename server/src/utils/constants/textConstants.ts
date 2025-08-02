@@ -4,3 +4,5 @@ export const invalidData: string = "Invalid Data.";
 export const userAlreadyExist: string = "User Already Exist.";
 export const userDoesNotExist: string = "User Does Not Exist.";
 export const incorrectPassword: string = "Incorrect Password.";
+export const noFileUploaded: string = "No file uploaded.";
+export const blogNotFound: string = "Blog not found.";
